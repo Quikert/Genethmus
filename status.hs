@@ -2,7 +2,7 @@ module Status (saveResults, countResults) where
 
 import Processing (Client(..), decisionCategory, decisionReason, Category(..))
 
--- Convert client result to JSON string
+-- convert client result to JSON string
 clientToJson :: Client -> String
 clientToJson c =
   "{ \"name\": \"" ++ firstName c ++ " " ++ lastName c ++
