@@ -2,7 +2,7 @@
 Credit analysis algorithm based on related/personal information.
 
 ## Usage and compile
-- First of all, make sure you have Haskell GHC installed on your machine, if you don't have it, install it here:  https://www.haskell.org/ghcup/
+- First of all, make sure you have Haskell GHC installed on your machine, if you don't have it, install it here: https://www.haskell.org/ghcup/
 - Check if ghc and haskell are working, use: `ghc --version` or `ghci --version`
 - Now go to the directory and compile: `ghc -o gnt processing.hs status.hs main.hs`
 - The output should look like this:
