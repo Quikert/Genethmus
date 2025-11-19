@@ -21,4 +21,7 @@ Rejected: 284
 Pending: 3884
 Processing finished. Results saved in approved.json, rejected.json, pending.json. usuarios.csv deleted.
 ```
+---
 
+> Powered by @Quikert <3
+> 
