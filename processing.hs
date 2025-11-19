@@ -1,15 +1,14 @@
 module Processing (
     Client(..),
-    Category(..),   -- exporta o tipo e seus construtores
+    Category(..),   -- exports the type and its manufacturers
     readClients,
     decisionCategory,
     decisionReason
 ) where
 
--- Categoria de decisão
+
 data Category = Approved | Rejected | Pending deriving (Show, Eq)
 
--- Estrutura do cliente
 data Client = Client
   { firstName   :: String
   , lastName    :: String
@@ -70,7 +69,7 @@ decisionCategory c
   | incomeType c == "variable" && balance c >= 1500 && income c >= 2000 = Approved
   | marital c == "married" && children c > 0 && income c >= 1800 = Approved
   | balance c > 1000 && income c > 2000 = Approved
-  | balance c > 800 || income c > 1800 = Pending  -- casos limítrofes
+  | balance c > 800 || income c > 1800 = Pending 
   | otherwise = Rejected
 
 -- reason for decision
