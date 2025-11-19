@@ -13,6 +13,8 @@ Credit analysis algorithm based on related/personal information.
 [4 of 4] Linking gnt [Objects changed]
 ```
 - Next, exit the current directory and copy your .csv file to the Genethmus directory: `cp file.csv /Genethmus/file.csv`
+- Note: The header should look like this: `name,surname,balance,income,typeofincome,mother,father,owes,livesalone,age,job,maritalstatus,children,city`
+- Example of a line body: `Anne,Britch,2000,3000,fixed,yes,no,no,no,30,teacher,married,2,New York`
 - Enter the directory again using `cd Genethmus` and run `./gnt file.csv`
 - The output should look like this:
 ```
